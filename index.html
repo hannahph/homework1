@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+    </head>
+    <body>
+        <h1 id="myHeader">Min or Max Web Page</h1>
+        <h2>Pick a function</h2>
+        <div>
+            <select id="function">
+                <option value="Maximum">Max</option>
+                <option value="Minimum">Min</option>
+            </select>
+            <h2>Enter a number and press the button to add it to the list</h2>
+            <input type="number" id="num_to_add">
+            <span><button onclick='addToArray()'>Add to list</button></span>
+            <h2 id="list_output"></h2>
+            <h2>Click to see result of function and clear list</h2>
+            <span><button onclick='runFunction()'>Run</button></span>
+            <h2 id="function_output"></h2>
+        </div>
+        <script src="hw1.js"></script>
+    </body>
+</html>
